@@ -229,46 +229,45 @@ Use the ``status`` command of ``fdbcli`` to determine if the cluster is up and r
     The database is available.
 
     Welcome to the fdbcli. For help, type `help'.
-fdb> status
+    fdb> status
 
-Configuration:
-  Redundancy mode        - triple
-  Storage engine         - ssd-2
-  Coordinators           - 5
-  Desired Proxies        - 5
-  Desired Logs           - 8
+    Configuration:
+      Redundancy mode        - triple
+      Storage engine         - ssd-2
+      Coordinators           - 5
+      Desired Proxies        - 5
+      Desired Logs           - 8
 
-Cluster:
-  FoundationDB processes - 272
-  Machines               - 16
-  Memory availability    - 14.5 GB per process on machine with least available
-  Retransmissions rate   - 20 Hz
-  Fault Tolerance        - 2 machines
-  Server time            - 03/19/18 08:51:52
-
-Data:
-  Replication health     - Healthy
-  Moving data            - 0.000 GB
-  Sum of key-value sizes - 3.298 TB
-  Disk space used        - 15.243 TB
-
-Operating space:
-  Storage server         - 1656.2 GB free on most full server
-  Log server             - 1794.7 GB free on most full server
-
-Workload:
-  Read rate              - 55990 Hz
-  Write rate             - 14946 Hz
-  Transactions started   - 6321 Hz
-  Transactions committed - 1132 Hz
-  Conflict rate          - 0 Hz
-
-Backup and DR:
-  Running backups        - 1
-  Running DRs            - 1 as primary
-
-Client time: 03/19/18 08:51:51
+    Cluster:
+      FoundationDB processes - 272
+      Machines               - 16
+      Memory availability    - 14.5 GB per process on machine with least available
+      Retransmissions rate   - 20 Hz
+      Fault Tolerance        - 2 machines
+      Server time            - 03/19/18 08:51:52
     
+    Data:
+      Replication health     - Healthy
+      Moving data            - 0.000 GB
+      Sum of key-value sizes - 3.298 TB
+      Disk space used        - 15.243 TB
+    
+    Operating space:
+      Storage server         - 1656.2 GB free on most full server
+      Log server             - 1794.7 GB free on most full server
+    
+    Workload:
+      Read rate              - 55990 Hz
+      Write rate             - 14946 Hz
+      Transactions started   - 6321 Hz
+      Transactions committed - 1132 Hz
+      Conflict rate          - 0 Hz
+    
+    Backup and DR:
+      Running backups        - 1
+      Running DRs            - 1 as primary
+    
+    Client time: 03/19/18 08:51:51
 
 The summary fields are interpreted as follows:
 
